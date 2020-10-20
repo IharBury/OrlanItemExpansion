@@ -20,6 +20,8 @@ OrlanItemExpansion_KnownItems = {
 	[21881] = 1, -- Netherweb Spider Silk
 	[21884] = 1, -- Primal Fire
 	[21887] = 1, -- Knothide Leather
+	[22202] = 0, -- Small Obsidian Shard
+	[22203] = 0, -- Large Obsidian Shard
 	[22307] = 0, -- Pattern: Enchanted Mageweave Pouch
 	[22445] = 1, -- Arcane Dust
 	[22446] = 1, -- Greater Planar Essence
@@ -51,8 +53,12 @@ OrlanItemExpansion_KnownItems = {
 	[23120] = 1, -- Stormy Azure Moonstone
 	[23121] = 1, -- Sparkling Azure Moonstone
 	[23347] = 1, -- Weathered Crossbow
+	[23426] = 1, -- Khorium Ore
+	[23427] = 1, -- Eternium Ore
 	[23445] = 1, -- Fel Iron Bar
 	[23446] = 1, -- Adamantite Bar
+	[23447] = 1, -- Eternium Bar
+	[23448] = 1, -- Felsteel Bar
 	[23449] = 1, -- Khorium Bar
 	[23500] = 1, -- Saltheril's Haven Party Invitation
 	[23528] = 1, -- Fel Sharpening Stone
@@ -188,6 +194,7 @@ OrlanItemExpansion_KnownItems = {
 	[34827] = 1, -- Noble's Monocle
 	[34829] = 1, -- Ornate Drinking Stein
 	[34831] = 1, -- Eye of the Sea
+	[35128] = 1, -- Hardened Khorium
 	[35315] = 1, -- Quick Dawnstone
 	[35487] = 1, -- Delicate Crimson Spinel
 	[35488] = 1, -- Brilliant Crimson Spinel
@@ -374,7 +381,9 @@ OrlanItemExpansion_KnownItems = {
 	[45932] = 2, -- Black Jelly
 	[45987] = 2, -- Rigid Stormjewel
 	[45998] = 2, -- Battered Jungle Hat
+	[46849] = 2, -- Titanium Powder
 	[50055] = 2, -- Worn Dirk
+	[51950] = 3, -- Pyrium Bar
 	[52081] = 3, -- Bold Carnelian
 	[52082] = 3, -- Delicate Carnelian
 	[52083] = 3, -- Flashing Carnelian
@@ -396,6 +405,7 @@ OrlanItemExpansion_KnownItems = {
 	[52173] = 3, -- Perfect Brilliant Carnelian
 	[52175] = 3, -- Perfect Delicate Carnelian
 	[52176] = 3, -- Perfect Bold Carnelian
+	[52186] = 3, -- Elementium Bar
 	[52207] = 3, -- Brilliant Inferno Ruby
 	[52208] = 3, -- Reckless Ember Topaz
 	[52212] = 3, -- Delicate Inferno Ruby
@@ -419,9 +429,12 @@ OrlanItemExpansion_KnownItems = {
 	[52980] = 3, -- Pristine Hide
 	[52982] = 3, -- Deepsea Scale
 	[53010] = 3, -- Embersilk Cloth
+	[53039] = 3, -- Hardened Elementium Bar
 	[53643] = 3, -- Bolt of Embersilk Cloth
 	[54451] = { AddedIn = 3, IntendedFor = 0 }, -- High Society Top Hat
+	[54849] = 3, -- Obsidium Bar
 	[56516] = 3, -- Heavy Savage Leather
+	[58480] = 3, -- Truegold
 	[62676] = 3, -- Blackened Surprise
 	[62790] = 3, -- Darkbrew Lager
 	[64670] = 3, -- Vanishing Powder
@@ -445,6 +458,9 @@ OrlanItemExpansion_KnownItems = {
 	[71883] = 3, -- Bold Queen's Garnet
 	[71998] = 3, -- Essence of Destruction
 	[72013] = 3, -- Plans: Foundations of Courage
+	[72095] = 4, -- Trillium Bar
+	[72096] = 4, -- Ghost Iron Bar
+	[72104] = 4, -- Living Steel
 	[72120] = 4, -- Exotic Leather
 	[72162] = 4, -- Sha-Touched Leather
 	[72163] = 4, -- Magnificent Hide
@@ -529,18 +545,36 @@ OrlanItemExpansion_KnownItems = {
 	[77547] = 4, -- Fractured Tinker's Gear
 	[79101] = 4, -- Prismatic Scale
 	[79740] = 4, -- Plain Wooden Staff
+	[80431] = 4, -- Folded Ghost Iron
 	[80433] = 4, -- Blood Spirit
 	[82441] = 4, -- Bolt of Windwool Cloth
 	[83080] = 4, -- Huojin Tabard
 	[85663] = 4, -- Herbalist's Spade
 	[87216] = 4, -- Thermal Anvil
 	[89738] = { AddedIn = 4, IntendedFor = 2 }, -- Essence or Dust
+	[97512] = 4, -- Ghost Iron Nugget
+	[97546] = 4, -- Kyparite Fragment
+	[105718] = 4, -- Sha Crystal Fragment
 	[107700] = 4, -- Retaliating Imperial Amethyst
 	[107759] = 4, -- Ember Primal Diamond
 	[108257] = 5, -- Truesteel Ingot
+	[108294] = { AddedIn = 5, IntendedFor = 0 }, -- Silver Ore Nugget
+	[108296] = { AddedIn = 5, IntendedFor = 0 }, -- Gold Ore Nugget
+	[108297] = { AddedIn = 5, IntendedFor = 0 }, -- Iron Ore Nugget
+	[108300] = { AddedIn = 5, IntendedFor = 0 }, -- Mithril Ore Nugget
+	[108301] = { AddedIn = 5, IntendedFor = 1 }, -- Fel Iron Ore Nugget
+	[108302] = { AddedIn = 5, IntendedFor = 1 }, -- Adamantite Ore Nugget
+	[108304] = { AddedIn = 5, IntendedFor = 1 }, -- Khorium Ore Nugget
+	[108305] = { AddedIn = 5, IntendedFor = 2 }, -- Cobalt Ore Nugget
+	[108306] = { AddedIn = 5, IntendedFor = 2 }, -- Saronite Ore Nugget
+	[108307] = { AddedIn = 5, IntendedFor = 3 }, -- Obsidium Ore Nugget
+	[108308] = { AddedIn = 5, IntendedFor = 3 }, -- Elementium Ore Nugget
 	[109076] = 5, -- Goblin Glider Kit
+	[109118] = 5, -- Blackrock Ore
+	[109119] = 5, -- True Iron Ore
 	[109599] = 5, -- Neural Silencer
 	[109693] = 5, -- Draenic Dust
+	[109991] = 5, -- True Iron Nugget
 	[109992] = 5, -- Blackrock Fragment
 	[110609] = 5, -- Raw Beast Hide
 	[110610] = 5, -- Raw Beast Hide Scraps
@@ -562,6 +596,7 @@ OrlanItemExpansion_KnownItems = {
 	[112185] = { AddedIn = 5, IntendedFor = 1 }, -- Wind Scale Fragment
 	[113588] = 5, -- Temporal Crystal
 	[114980] = 5, -- Farmer's Broom
+	[115502] = 5, -- Small Luminous Shard
 	[115504] = 5, -- Fractured Temporal Crystal
 	[115803] = 5, -- Critical Strike Taladite
 	[115804] = 5, -- Haste Taladite
@@ -582,6 +617,8 @@ OrlanItemExpansion_KnownItems = {
 	[124440] = 6, -- Arkhana
 	[124441] = 6, -- Leylight Shard
 	[124442] = 6, -- Chaos Crystal
+	[124444] = 6, -- Infernal Brimstone
+	[124461] = 6, -- Demonsteel Bar
 	[127004] = 6, -- Imbued Silkweave
 	[127037] = 6, -- Runic Catgut
 	[127681] = 6, -- Sharp Spritethorn
@@ -693,7 +730,7 @@ function OrlanItemExpansion_ToolTipHook(tooltip)
 		intendedExpansion = expansion;
 	end;
 	if expansion ~= intendedExpansion then
-		GameTooltip:AddLine("Added in " .. OrlanItemExpansion_ExpansionName(expansion) .. " but intended for " .. OrlanItemExpansion_ExpansionName(intendedExpansion));
+		GameTooltip:AddLine(OrlanItemExpansion_ExpansionName(intendedExpansion) .. " (added in " .. OrlanItemExpansion_ExpansionName(expansion) .. ")");
 	else
 		GameTooltip:AddLine(OrlanItemExpansion_ExpansionName(expansion));
 	end;
