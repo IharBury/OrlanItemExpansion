@@ -2,6 +2,8 @@ OrlanItemExpansion_KnownItems = {
 	[20752] = 0, -- Formula: Minor Mana Oil
 	[20753] = 0, -- Formula: Lesser Wizard Oil
 	[20758] = 0, -- Formula: Minor Wizard Oil
+	[21072] = 0, -- Smoked Sagefish
+	[21217] = 0, -- Sagefish Delight
 	[21877] = 1, -- Netherweave Cloth
 	[21881] = 1, -- Netherweb Spider Silk
 	[21884] = 1, -- Primal Fire
@@ -19,6 +21,7 @@ OrlanItemExpansion_KnownItems = {
 	[22575] = 1, -- Mote of Life
 	[22577] = 1, -- Mote of Shadow
 	[22578] = 1, -- Mote of Water
+	[22647] = { AddedIn = 1, IntendedFor = 0 }, -- Recipe: Crunchy Spider Surprise
 	[23445] = 1, -- Fel Iron Bar
 	[23446] = 1, -- Adamantite Bar
 	[23449] = 1, -- Khorium Bar
@@ -27,8 +30,16 @@ OrlanItemExpansion_KnownItems = {
 	[23573] = 1, -- Hardened Adamantite Bar
 	[24477] = 1, -- Jaggal Clam Meat
 	[24478] = 1, -- Jaggal Pearl
+	[27635] = { AddedIn = 1, IntendedFor = 0 }, -- Lynx Steak
+	[27651] = 1, -- Buzzard Bites
+	[27657] = 1, -- Blackened Basilisk
+	[27659] = 1, -- Warp Burger
+	[27666] = 1, -- Golden Fish Sticks
+	[27667] = 1, -- Spicy Crawdad
+	[28267] = { AddedIn = 1, IntendedFor = 0 }, -- Crunchy Spider Surprise
 	[29736] = 1, -- Arcane Rune
 	[30183] = 1, -- Nether Vortex
+	[30816] = { AddedIn = 1, IntendedFor = 0 }, -- Spice Bread
 	[32227] = 1, -- Crimson Spinel
 	[32228] = 1, -- Empyrean Sapphire
 	[32229] = 1, -- Lionseye
@@ -36,6 +47,9 @@ OrlanItemExpansion_KnownItems = {
 	[32231] = 1, -- Pyrestone
 	[32249] = 1, -- Seaspray Emerald
 	[32428] = 1, -- Heart of Darkness
+	[33048] = 1, -- Stewed Trout
+	[33052] = 1, -- Fisherman's Feast
+	[33053] = 1, -- Hot Buttered Trout
 	[33226] = 1, -- Tricky Treat
 	[33470] = 2, -- Frostweave Cloth
 	[33864] = 1, -- Brown Brewfest Hat
@@ -47,8 +61,22 @@ OrlanItemExpansion_KnownItems = {
 	[34057] = 2, -- Abyss Crystal
 	[34664] = 1, -- Sunmote
 	[34736] = 2, -- Chunk o' Mammoth
+	[34747] = 2, -- Northern Stew
+	[34748] = 2, -- Mammoth Meal
 	[34749] = 2, -- Shoveltusk Steak
+	[34750] = 2, -- Worm Delight
+	[34751] = 2, -- Roasted Worg
+	[34752] = 2, -- Rhino Dogs
+	[34753] = 2, -- Great Feast
+	[34759] = 2, -- Smoked Rockfin
 	[34760] = 2, -- Grilled Bonescale
+	[34761] = 2, -- Sauteed Goby
+	[34762] = 2, -- Grilled Sculpin
+	[34763] = 2, -- Smoked Salmon
+	[34764] = 2, -- Poached Nettlefish
+	[34765] = 2, -- Pickled Fangtooth
+	[35563] = { AddedIn = 1, IntendedFor = 0 }, -- Charred Bear Kabobs
+	[35565] = { AddedIn = 1, IntendedFor = 0 }, -- Juicy Bear Burger
 	[35624] = 2, -- Eternal Earth
 	[36782] = 2, -- Succulent Clam Meat
 	[36909] = 2, -- Cobalt Ore
@@ -76,11 +104,13 @@ OrlanItemExpansion_KnownItems = {
 	[41810] = 2, -- Fangtooth Herring
 	[41812] = 2, -- Barrelhead Goby
 	[41813] = 2, -- Nettlefish
+	[42942] = 2, -- Baked Manta Ray
 	[43009] = 2, -- Shoveltusk Flank
 	[43010] = 2, -- Worm Meat
 	[43011] = 2, -- Worg Haunch
 	[43012] = 2, -- Rhino Meat
 	[43013] = 2, -- Chilled Meat
+	[43268] = 2, -- Dalaran Clam Chowder
 	[44471] = 2, -- Formula: Enchant Cloak - Mighty Stamina
 	[44472] = 2, -- Formula: Enchant Cloak - Greater Speed
 	[44473] = 2, -- Formula: Enchant Weapon - Scourgebane
@@ -103,6 +133,7 @@ OrlanItemExpansion_KnownItems = {
 	[45059] = 2, -- Formula: Enchant Staff - Greater Spellpower
 	[45583] = 2, -- Undercity Tabard
 	[45585] = 2, -- Silvermoon City Tabard
+	[45932] = 2, -- Black Jelly
 	[52325] = 3, -- Volatile Fire
 	[52328] = 3, -- Volatile Air
 	[52555] = 3, -- Hypnotic Dust
@@ -111,7 +142,10 @@ OrlanItemExpansion_KnownItems = {
 	[52721] = 3, -- Heavenly Shard
 	[52722] = 3, -- Maelstrom Crystal
 	[53010] = 3, -- Embersilk Cloth
+	[62676] = 3, -- Blackened Surprise
+	[62790] = 3, -- Darkbrew Lager
 	[64670] = 3, -- Vanishing Powder
+	[67230] = { AddedIn = 3, IntendedFor = 0 }, -- Venison Jerky
 	[69237] = 3, -- Living Ember
 	[71617] = 3, -- Crystallized Firestone
 	[71998] = 3, -- Essence of Destruction
@@ -130,6 +164,8 @@ OrlanItemExpansion_KnownItems = {
 	[109599] = 5, -- Neural Silencer
 	[109693] = 5, -- Draenic Dust
 	[111245] = 5, -- Luminous Shard
+	[111455] = 5, -- Saberfish Broth
+	[111456] = 5, -- Grilled Saberfish
 	[113588] = 5, -- Temporal Crystal
 	[115504] = 5, -- Fractured Temporal Crystal
 	[124121] = 6, -- Wildfowl Egg
@@ -142,7 +178,7 @@ OrlanItemExpansion_KnownItems = {
 	[141605] = 6, -- Flight Master's Whistle
 	[141910] = 6, -- Enchant Neck - Mark of the Ancient Priestess
 	[150922] = 6, -- Terrific Tankard O' Terror
-	[156930] = 0, -- Rich Illusion Dust (added in 7.3.5 but intended for Classic)
+	[156930] = { AddedIn = 6, IntendedFor = 0 }, -- Rich Illusion Dust
 	[166444] = 7, -- Honorbound Scouting Map
 	[170170] = 7, -- Fermented Deviate Fish
 	[170172] = 7, -- Brightspine Shell
@@ -152,7 +188,29 @@ OrlanItemExpansion_KnownItems = {
 	[170193] = 7, -- Sea Totem
 	[170194] = 7, -- Storm Totem
 	[170200] = 7 -- Seastorm Totem
-}
+};
+
+OrlanItemExpansion_ExpansionNames = {
+	[0] = "Classic",
+	[1] = "The Burning Crusade",
+	[2] = "Wrath of the Lich King",
+	[3] = "Cataclysm",
+	[4] = "Mists of Pandaria",
+	[5] = "Warlords of Draenor",
+	[6] = "Legion",
+	[7] = "Battle for Azeroth",
+	[8] = "Shadowlands"
+};
+
+function OrlanItemExpansion_ExpansionName(expansion)
+	if expansion == nil then
+		return "Unknown expansion";
+	elseif OrlanItemExpansion_ExpansionNames[expansion] then
+		return OrlanItemExpansion_ExpansionNames[expansion];
+	else
+		return "New expansion " .. (expansion + 1) .. ".*.*";
+	end;
+end;
 
 function OrlanItemExpansion_ToolTipHook(tooltip)
 	local link = select(2, tooltip:GetItem())
@@ -163,7 +221,7 @@ function OrlanItemExpansion_ToolTipHook(tooltip)
 	if not link then
 		return;
 	end;
-	local id = select(5, string.find(link, "|?c?f?f?(%x*)|?H?([^:]*):?(%d+):?(%d*):?(%d*):?(%d*):?(%d*):?(%d*):?(%-?%d*):?(%-?%d*):?(%d*):?(%d*)|?h?%[?([^%[%]]*)%]?|?h?|?r?"));
+	local id = select(5, string.find(link, "|?c?f?f?(%x*)|?H?([^:]*):?(%d+):"));
 	if not id then
 		return;
 	end;
@@ -171,38 +229,30 @@ function OrlanItemExpansion_ToolTipHook(tooltip)
 	if not id then
 		return;
 	end;
-	local expacID;
+	local expansion;
+	local intendedExpansion;
 	if id < 20604 then
-		expacID = 0;
+		expansion = 0;
+		intendedExpansion = 0;
 	elseif OrlanItemExpansion_KnownItems[id] ~= nil then
-		expacID = OrlanItemExpansion_KnownItems[id];
-	else
-		expacID = select(15, GetItemInfo(id));
-		if (expacID == nil) or (expacID == 0) then
-			GameTooltip:AddLine("Unknown expansion");
-			return;
+		expansion = OrlanItemExpansion_KnownItems[id];
+		if type(expansion) == "table" then
+			intendedExpansion = expansion.IntendedFor;
+			expansion = expansion.AddedIn;
+		else
+			intendedExpansion = expansion;
 		end;
-	end;
-	if expacID == 0 then
-		GameTooltip:AddLine("Classic");
-	elseif expacID == 1 then
-		GameTooltip:AddLine("The Burning Crusade");
-	elseif expacID == 2 then
-		GameTooltip:AddLine("Wrath of the Lich King");
-	elseif expacID == 3 then
-		GameTooltip:AddLine("Cataclysm");
-	elseif expacID == 4 then
-		GameTooltip:AddLine("Mists of Pandaria");
-	elseif expacID == 5 then
-		GameTooltip:AddLine("Warlords of Draenor");
-	elseif expacID == 6 then
-		GameTooltip:AddLine("Legion");
-	elseif expacID == 7 then
-		GameTooltip:AddLine("Battle for Azeroth");
-	elseif expacID == 8 then
-		GameTooltip:AddLine("Shadowlands");
 	else
-		GameTooltip:AddLine("New expansion " .. expacID);
+		expansion = select(15, GetItemInfo(id));
+		if expansion == 0 then
+			expansion = nil;
+		end;
+		intendedExpansion = expansion;
+	end;
+	if expansion ~= intendedExpansion then
+		GameTooltip:AddLine("Added in " .. OrlanItemExpansion_ExpansionName(expansion) .. " but intended for " .. OrlanItemExpansion_ExpansionName(intendedExpansion));
+	else
+		GameTooltip:AddLine(OrlanItemExpansion_ExpansionName(expansion));
 	end;
 end;
 
