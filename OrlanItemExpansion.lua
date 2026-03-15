@@ -2003,6 +2003,7 @@ OrlanItemExpansion_KnownItems = {
 	[54605] = 3, -- Pattern: Illusionary Bag
 	[54798] = 2, -- Pattern: Frosty Flying Carpet
 	[54849] = 3, -- Obsidium Bar
+	[55057] = 3, -- Pyrium Weapon Chain
 	[56147] = { AddedIn = 3, IntendedFor = 0 }, -- Fatcandle Bag
 	[56148] = 3, -- Bank Robber's Bag
 	[56149] = 3, -- Empty Town-In-A-Box
